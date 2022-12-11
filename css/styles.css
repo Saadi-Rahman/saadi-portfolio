@@ -34,7 +34,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #0e7490;
-  --bs-secondary: #6c757d;
+  --bs-secondary: rgb(41, 40, 56);
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -42,7 +42,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 14, 116, 144;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-secondary-rgb: 41, 40, 56;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -597,6 +597,11 @@ progress {
 }
 .blockquote-footer::before {
   content: "— ";
+}
+
+.social a {
+  color: rgb(28, 26, 26);
+  margin: 0 5px;
 }
 
 .img-fluid {
@@ -11307,12 +11312,12 @@ body {
 }
 
 .btn-xl {
-  padding: 1rem 2.25rem;
-  font-size: 0.85rem;
+  padding: 16px 40px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  border-radius: 10rem;
+  border-radius: 10px;
 }
 
 hr.divider {
