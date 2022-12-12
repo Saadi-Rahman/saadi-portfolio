@@ -31,8 +31,8 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
                         <li class="nav-item"><a class="nav-link" href="#services">SERVICES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
                         <li class="nav-item"><a class="nav-link" href="#blog">BLOG</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
@@ -56,19 +56,6 @@
                 </div>
             </div>
         </header>
-        <!-- About-->
-        <section class="page-section bg-primary" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-10 text-center">
-                        <h2 class="text-white mt-0">About Me</h2>
-                        <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">My name is Md. Sadiqur Rahman. I'm a junior React Developer with one year of working experience. I have completed my graduation in Computer science and engineering at Bangladesh University. I have extensive knowledge of HTML, CSS, JavaScript, React, Node.js, MongoDB, and a small knowledge of backend technologies. Recently I completed a full-stack web development course from Programming Hero, where I learned some modern front-end technologies, authentications, APIs, and frameworks and worked on more than 16 projects, from small, simple websites to complex ones. If you hire me for any project I will give my 100% to complete your project.</p>
-                        <a class="btn btn-light btn-xl" href="https://drive.google.com/file/d/1-SdrFsSDGyuWNnF77Qzlytc8O1nF2KXN/view?usp=sharing" target="blank">See My Resume</a>
-                    </div>
-                </div>
-            </div>
-        </section>
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container px-4 px-lg-5">
@@ -106,67 +93,155 @@
                 </div>
             </div>
         </section>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2 class="text-white mt-0">About Me</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">My name is Md. Sadiqur Rahman. I'm a junior React Developer with one year of working experience. I have completed my graduation in Computer science and engineering at Bangladesh University. I have extensive knowledge of HTML, CSS, JavaScript, React, Node.js, MongoDB, and a small knowledge of backend technologies. Recently I completed a full-stack web development course from Programming Hero, where I learned some modern front-end technologies, authentications, APIs, and frameworks and worked on more than 16 projects, from small, simple websites to complex ones. If you hire me for any project I will give my 100% to complete your project.</p>
+                        <a class="btn btn-light btn-xl" href="https://drive.google.com/file/d/1-SdrFsSDGyuWNnF77Qzlytc8O1nF2KXN/view?usp=sharing" target="_blank">See My Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Projects-->
-        <section class="portfolio-section" id="portfolio">
-            <div class="container-fluid p-0">
-                <div class="pb-2">
+        <section class="container portfolio-section px-4 px-lg-5" id="portfolio">
+            <div class="portfolio-container">
+                <div class="pb-4">
                     <h2 class="text-center mt-0">Portfolio</h2>
                     <hr class="divider" />
                 </div>
-                <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="https://i.postimg.cc/mZp4xN7f/Mr-Locker1.png" title="Mr. Locker">
-                            <img class="img-fluid" src="https://i.postimg.cc/mZp4xN7f/Mr-Locker1.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-name">Mr. Locker</div>
-                                <div class="project-category text-white">Lock Repair Services website</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="https://i.postimg.cc/KjjykRSH/Used-Guitars1.png" title="Used Guitars N Gears">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <a class="portfolio-box shadow-lg" href="https://i.postimg.cc/KjjykRSH/Used-Guitars1.png" title="Used Guitars N Gears">
                             <img class="img-fluid" src="https://i.postimg.cc/KjjykRSH/Used-Guitars1.png" alt="..." />
                             <div class="portfolio-box-caption">
-                                <div class="project-name">Used Guitars N Gears</div>
-                                <div class="project-category text-white">Used Guitars N Gears resale website</div>
+                                <div class="px-5">
+                                    <p class="my-0 mb-1 mb-md-2">Used Guitars N Gears <span class="fs-12">(Used Guitar resale website)</span></p>
+                                    <h6 class="my-0 mb-1 mb-md-2 fs-10 fs-14">Features:</h6>
+                                    <li class="fs-8 fs-12">This website is a used product buying and selling platform.</li>
+                                    <li class="fs-8 fs-12">User & Admin Dashboard. Admin can delete a user or verify a seller.</li>
+                                    <li class="fs-8 fs-12">Users can sell or buy products from this website.</li>
+                                </div>
                             </div>
                         </a>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="m-0 p-0 fw-bold"><a class="text-decoration-none" target="_blank" href="https://used-guitars-n-gears.web.app">Used Guitars N Gears</a></h5>
+                            <div class="live-links fs-5">
+                                <a target="_blank" href="https://github.com/Saadi-Rahman/used-guitars-n-gears-client"><i class="fa-brands fa-github"></i></a>
+                                <a target="_blank" href="https://github.com/Saadi-Rahman/used-guitars-n-gears-server"><i class="fa-solid fa-server"></i></a>
+                                <a class="me-0" target="_blank" href="https://used-guitars-n-gears.web.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="https://i.postimg.cc/0j41pP92/Backbenchers1.png" title="Backbenchers">
+                    <div class="col-lg-6">
+                        <a class="portfolio-box shadow-lg" href="https://i.postimg.cc/0j41pP92/Backbenchers1.png" title="Backbenchers">
                             <img class="img-fluid" src="https://i.postimg.cc/0j41pP92/Backbenchers1.png" alt="..." />
                             <div class="portfolio-box-caption">
-                                <div class="project-name">Backbenchers</div>
-                                <div class="project-category text-white">Online Learning platform website</div>
+                                <div class="px-5">
+                                    <p class="my-0 mb-1 mb-md-2">Backbenchers <span class="fs-12">(Online Learning platform website)</span></p>
+                                    <h6 class="my-0 mb-1 mb-md-2 fs-10 fs-14">Features:</h6>
+                                    <li class="fs-8 fs-12">Online learning platform where users can see all courses.</li>
+                                    <li class="fs-8 fs-12">Implemented Email-password and google login authentication.</li>
+                                    <li class="fs-8 fs-12">Users can get premium access to a course by logging in.</li>
+                                </div>
                             </div>
                         </a>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="m-0 p-0 fw-bold"><a class="text-decoration-none" target="_blank" href="https://backbenchers-fd670.web.app/">Backbenchers</a></h5>
+                            <div class="live-links fs-5">
+                                <a target="_blank" href="https://github.com/Saadi-Rahman/backbenchers-client"><i class="fa-brands fa-github"></i></a>
+                                <a target="_blank" href="https://github.com/Saadi-Rahman/backbenchers-server"><i class="fa-solid fa-server"></i></a>
+                                <a class="me-0" target="_blank" href="https://backbenchers-fd670.web.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="https://i.postimg.cc/Jh38Sf5P/Quiz-Master1.png" title="QuizMaster">
+                    <div class="col-lg-6">
+                        <a class="portfolio-box shadow-lg" href="https://i.postimg.cc/mZp4xN7f/Mr-Locker1.png" title="Mr. Locker">
+                            <img class="img-fluid" src="https://i.postimg.cc/mZp4xN7f/Mr-Locker1.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="px-5">
+                                    <p class="my-0 mb-1 mb-md-2">Mr. Locker <span class="fs-12">(Lock Repair Services website)</span></p>
+                                    <h6 class="my-0 mb-1 mb-md-2 fs-10 fs-14">Features:</h6>
+                                    <li class="fs-8 fs-12">A self service website where users can see the services and reviews.</li>
+                                    <li class="fs-8 fs-12">If a user wants to leave a review he/she needs to log in first.</li>
+                                    <li class="fs-8 fs-12">Users can add new services by logging in.</li>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="m-0 p-0 fw-bold"><a class="text-decoration-none" target="_blank" href="https://mr-locker-7019f.web.app">Mr. Locker</a></h5>
+                            <div class="live-links fs-5">
+                                <a target="_blank" href="https://github.com/Saadi-Rahman/mr-locker-client"><i class="fa-brands fa-github"></i></a>
+                                <a target="_blank" href="https://github.com/Saadi-Rahman/mr-locker-server"><i class="fa-solid fa-server"></i></a>
+                                <a class="me-0" target="_blank" href="https://mr-locker-7019f.web.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-box shadow-lg" href="https://i.postimg.cc/3rLZg9Dq/Urban-Runners1.png" title="Urban-Runners">
+                            <img class="img-fluid" src="https://i.postimg.cc/3rLZg9Dq/Urban-Runners1.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="px-5">
+                                    <p class="my-0 mb-1 mb-md-2">Urban-Runners <span class="fs-12">(Daily Workout Calculator)</span></p>
+                                    <h6 class="my-0 mb-1 mb-md-2 fs-10 fs-14">Features:</h6>
+                                    <li class="fs-8 fs-12">This web app is used to calculate runners' daily workouts.</li>
+                                    <li class="fs-8 fs-12">Users can select desired workout and add a suitable break time.</li>
+                                    <li class="fs-8 fs-12">After finishing selected workouts, this app calculate total workout time.</li>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="m-0 p-0 fw-bold"><a class="text-decoration-none" target="_blank" href="https://vocal-seahorse-8edd53.netlify.app/">Urban-Runners</a></h5>
+                            <div class="live-links fs-5">
+                                <a target="_blank" href="https://github.com/Saadi-Rahman/urban-runners"><i class="fa-brands fa-github"></i></a>
+                                <a class="me-0" target="_blank" href="https://vocal-seahorse-8edd53.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-box shadow-lg" href="https://i.postimg.cc/Jh38Sf5P/Quiz-Master1.png" title="QuizMaster">
                             <img class="img-fluid" src="https://i.postimg.cc/Jh38Sf5P/Quiz-Master1.png" alt="..." />
                             <div class="portfolio-box-caption">
-                                <div class="project-name">QuizMaster</div>
-                                <div class="project-category text-white">Online Quiz Web App</div>
+                                <div class="px-5">
+                                    <p class="my-0 mb-1 mb-md-2">QuizMaster <span class="fs-12">(Online Quiz Web App)</span></p>
+                                    <h6 class="my-0 mb-1 mb-md-2 fs-10 fs-14">Features:</h6>
+                                    <li class="fs-8 fs-12">This web app is an online Quiz competition platform.</li>
+                                    <li class="fs-8 fs-12">Users can select their desired topic to participate in the quiz.</li>
+                                    <li class="fs-8 fs-12">The Quiz Statistics page shows a stat for all quizzes.</li>
+                                </div>
                             </div>
                         </a>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="m-0 p-0 fw-bold"><a class="text-decoration-none" target="_blank" href="https://glittery-meringue-dfbd4d.netlify.app/">QuizMaster</a></h5>
+                            <div class="live-links fs-5">
+                                <a target="_blank" href="https://github.com/Saadi-Rahman/quiz-master"><i class="fa-brands fa-github"></i></a>
+                                <a class="me-0" target="_blank" href="https://glittery-meringue-dfbd4d.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="https://i.postimg.cc/V6YwwK71/GetSet1.png" title="GetSet11">
-                            <img class="img-fluid" src="https://i.postimg.cc/V6YwwK71/GetSet1.png" alt="..." />
+                    <div class="col-lg-6">
+                        <a class="portfolio-box shadow-lg" href="https://i.postimg.cc/2yXFr8DY/GetSet1.png" title="GetSet11">
+                            <img class="img-fluid" src="https://i.postimg.cc/2yXFr8DY/GetSet1.png" alt="..." />
                             <div class="portfolio-box-caption">
-                                <div class="project-name">GetSet11</div>
-                                <div class="project-category text-white">Fantasy Football Web App</div>
+                                <div class="px-5">
+                                    <p class="my-0 mb-1 mb-md-2">GetSet11 <span class="fs-12">(Fantasy Football Web App)</span></p>
+                                    <h6 class="my-0 mb-1 mb-md-2 fs-10 fs-14">Features:</h6>
+                                    <li class="fs-8 fs-12">GetSet11 is a fantasy football web app.</li>
+                                    <li class="fs-8 fs-12">Users can select any 5 players from the list to make their team.</li>
+                                    <li class="fs-8 fs-12">Users can calculate total cost of formed team through this web app.</li>
+                                </div>
                             </div>
                         </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="https://i.postimg.cc/Qt03dcP7/Urban-Runners1.png" title="URBAN-RUNNERS">
-                            <img class="img-fluid" src="https://i.postimg.cc/Qt03dcP7/Urban-Runners1.png" alt="..." />
-                            <div class="portfolio-box-caption p-3">
-                                <div class="project-name">URBAN-RUNNERS</div>
-                                <div class="project-category text-white">Daily Workout Calculator Web App</div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="m-0 p-0 fw-bold"><a class="text-decoration-none" target="_blank" href="https://super-crepe-e25594.netlify.app/">GetSet11</a></h5>
+                            <div class="live-links fs-5">
+                                <a target="_blank" href="https://github.com/Saadi-Rahman/getset11"><i class="fa-brands fa-github"></i></a>
+                                <a class="me-0" target="_blank" href="https://super-crepe-e25594.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
